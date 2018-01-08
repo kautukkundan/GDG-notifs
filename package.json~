@@ -1,5 +1,5 @@
 {
-  "name": "GDG-notifs",
+  "name": "gdgattendance",
   "version": "1.0.0",
   "description": "a simple attendance app for session attendees",
   "main": "app.js",
