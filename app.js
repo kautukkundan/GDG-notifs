@@ -3,13 +3,6 @@ var bodyParser = require("body-parser");
 var fs = require("fs");
 var app = express();
 
-var firebase = require('firebase');
-
-
-firebase.initializeApp({
-  serviceAccount: "./gdg-notifs-firebase-adminsdk-6tr30-5dab9a1f66.json",
-  databaseURL: "https://gdg-notifs.firebaseio.com"
-});
 
 var ref = firebase.database().ref()
 
